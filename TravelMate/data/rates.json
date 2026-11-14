@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "notice": "Illustrative configurable rates — verify against local RTO tariff",
+    "lastReview": "2026-01-01",
+    "currency": "INR",
+    "currencySymbol": "₹"
+  },
+  "cities": {
+    "agra": {
+      "name": "Agra",
+      "tier": "Tier 2",
+      "state": "Uttar Pradesh",
+      "defaultCenter": [27.1767, 78.0081],
+      "defaultZoom": 13,
+      "vehicles": {
+        "auto": {
+          "name": "Auto-Rickshaw",
+          "icon": "🛺",
+          "baseFare": 25,
+          "baseKm": 2,
+          "perKmRate": 10.50,
+          "waitingRatePerMin": 1.00,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        },
+        "erickshaw": {
+          "name": "E-Rickshaw",
+          "icon": "🔋",
+          "baseFare": 10,
+          "baseKm": 1,
+          "perKmRate": 7.00,
+          "waitingRatePerMin": 0.50,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        }
+      }
+    },
+    "delhi": {
+      "name": "Delhi",
+      "tier": "Tier 1",
+      "state": "Delhi",
+      "defaultCenter": [28.6139, 77.2090],
+      "defaultZoom": 12,
+      "vehicles": {
+        "auto": {
+          "name": "Auto-Rickshaw",
+          "icon": "🛺",
+          "baseFare": 25,
+          "baseKm": 2,
+          "perKmRate": 9.50,
+          "waitingRatePerMin": 0.75,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        },
+        "erickshaw": {
+          "name": "E-Rickshaw",
+          "icon": "🔋",
+          "baseFare": 10,
+          "baseKm": 1,
+          "perKmRate": 5.00,
+          "waitingRatePerMin": 0.50,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        }
+      }
+    },
+    "jaipur": {
+      "name": "Jaipur",
+      "tier": "Tier 2",
+      "state": "Rajasthan",
+      "defaultCenter": [26.9124, 75.7873],
+      "defaultZoom": 13,
+      "vehicles": {
+        "auto": {
+          "name": "Auto-Rickshaw",
+          "icon": "🛺",
+          "baseFare": 25,
+          "baseKm": 2,
+          "perKmRate": 10.00,
+          "waitingRatePerMin": 1.00,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        },
+        "erickshaw": {
+          "name": "E-Rickshaw",
+          "icon": "🔋",
+          "baseFare": 10,
+          "baseKm": 1,
+          "perKmRate": 6.50,
+          "waitingRatePerMin": 0.50,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        }
+      }
+    },
+    "lucknow": {
+      "name": "Lucknow",
+      "tier": "Tier 2",
+      "state": "Uttar Pradesh",
+      "defaultCenter": [26.8467, 80.9462],
+      "defaultZoom": 13,
+      "vehicles": {
+        "auto": {
+          "name": "Auto-Rickshaw",
+          "icon": "🛺",
+          "baseFare": 25,
+          "baseKm": 2,
+          "perKmRate": 10.00,
+          "waitingRatePerMin": 1.00,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        },
+        "erickshaw": {
+          "name": "E-Rickshaw",
+          "icon": "🔋",
+          "baseFare": 10,
+          "baseKm": 1,
+          "perKmRate": 6.00,
+          "waitingRatePerMin": 0.50,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        }
+      }
+    },
+    "varanasi": {
+      "name": "Varanasi",
+      "tier": "Tier 2",
+      "state": "Uttar Pradesh",
+      "defaultCenter": [25.3176, 82.9739],
+      "defaultZoom": 13,
+      "vehicles": {
+        "auto": {
+          "name": "Auto-Rickshaw",
+          "icon": "🛺",
+          "baseFare": 20,
+          "baseKm": 2,
+          "perKmRate": 10.00,
+          "waitingRatePerMin": 1.00,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        },
+        "erickshaw": {
+          "name": "E-Rickshaw",
+          "icon": "🔋",
+          "baseFare": 10,
+          "baseKm": 1,
+          "perKmRate": 5.50,
+          "waitingRatePerMin": 0.50,
+          "upperBufferPercent": 15,
+          "rateSource": "Illustrative — verify against local RTO tariff",
+          "reviewDate": "2026-01-01"
+        }
+      }
+    }
+  }
+}
