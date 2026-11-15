@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS fare_logs (
     id             INTEGER PRIMARY KEY AUTOINCREMENT,
     city           TEXT    NOT NULL DEFAULT 'unknown',
     vehicle        TEXT    NOT NULL DEFAULT 'unknown',
-    distance_km    REAL    NOT NULL DEFAULT 0.0,
-    fare_estimate  REAL    NOT NULL DEFAULT 0.0,
+    distance_km    REAL    NOT NULL DEFAULT 0.00,
+    fare_estimate  REAL    NOT NULL DEFAULT 0.00,
     created_at     TEXT    NOT NULL DEFAULT (datetime('now'))
 );
 
