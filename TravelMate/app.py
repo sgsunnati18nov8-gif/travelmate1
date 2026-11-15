@@ -34,7 +34,7 @@ app = Flask(__name__, static_folder=BASE_DIR, static_url_path="")
 
 # ── Database Helpers ────────────────────────────────────────────
 def get_db():
-    """Open a database connection for the current request."""
+    """Open a database connection for the current requestof the db."""
     if "db" not in g:
         g.db = sqlite3.connect(DB_PATH)
         g.db.row_factory = sqlite3.Row
